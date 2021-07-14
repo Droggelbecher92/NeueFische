@@ -5,6 +5,8 @@ public class Hello {
         int num1 = 4;
         int num2 = 38;
 
-        System.out.println("Die Antwort auf alles ist "+(num1+num2)+"!");
+        System.out.println(num1<num2);
+        System.out.println(num1>num2);
+        System.out.println(num1==num2);
     }
 }
