@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5809fc2a-8b1c-4d27-ba24-1e4a90fc65a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Alarm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/AlarmTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MavenTestRepo/ControlFlow/src/main/java/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MavenTestRepo/ControlFlow/src/main/java/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MavenTestRepo/ControlFlow/src/test/java/AlarmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MavenTestRepo/my-app/src/main/java/com/mycompany/app/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MavenTestRepo/my-app/src/main/java/com/mycompany/app/SwitchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MavenTestRepo/my-app/src/test/java/com/mycompany/app/AlarmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AlarmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AlarmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Beispiele.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Beispiele.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AlarmTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AlarmTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +41,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -63,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Beispiele">
+  <component name="RunManager" selected="JUnit.All in 15-07-21">
     <configuration name="Alarm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Alarm" />
       <module name="15-07-21" />
@@ -74,17 +66,6 @@
     <configuration name="Beispiele" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Beispiele" />
       <module name="15-07-21" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,9 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in 15-07-21" />
         <item itemvalue="Application.Beispiele" />
         <item itemvalue="JUnit.ForSchleifeTest" />
-        <item itemvalue="JUnit.All in 15-07-21" />
         <item itemvalue="Application.Alarm" />
       </list>
     </recent_temporary>
@@ -124,6 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1626341753957</updated>
       <workItem from="1626341755266" duration="12286000" />
+      <workItem from="1626518947847" duration="597000" />
+      <workItem from="1626599183940" duration="2000" />
     </task>
     <servers />
   </component>
@@ -140,5 +123,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

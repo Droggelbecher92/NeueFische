@@ -6,38 +6,75 @@ import static org.junit.jupiter.api.Assertions.*;
 class AlarmTest {
     @Test
 
-    public void checkHowManyPeopleLeft() {
+    public void checkWith29People() {
         //GIVEN
-        int peopleTest1 = 29;
-        int peopleTest2 = 30;
-        int peopleTest3 = 31;
+        int peopleTest = 29;
         //WHEN
-        String actual1 = Alarm.howManyLeft(peopleTest1);
-        String actual2 = Alarm.howManyLeft(peopleTest2);
-        String actual3 = Alarm.howManyLeft(peopleTest3);
+        String actual = Alarm.howManyLeft(peopleTest);
         //THEN
-        Assertions.assertEquals("Maximale Personenanzahl nicht überschritten", actual1);
-        Assertions.assertEquals("Laden voll!", actual2);
-        Assertions.assertEquals("Zu viele Personen!", actual3);
+        Assertions.assertEquals("Maximale Personenanzahl nicht überschritten", actual);
     }
 
     @Test
-    public void alarmTest() {
-        //GIVEN
-        String test1 = "rot";
-        String test2 = "gelb";
-        String test3 = "grün";
-        String test4 = "bla";
-        //WHEN
-        String actual1 = Alarm.alarmMeter(test1);
-        String actual2 = Alarm.alarmMeter(test2);
-        String actual3 = Alarm.alarmMeter(test3);
-        String actual4 = Alarm.alarmMeter(test4);
-        //THEN
-        Assertions.assertEquals("Keine Personen erlaubt!", actual1);
-        Assertions.assertEquals("Max 30 Personen erlaubt", actual2);
-        Assertions.assertEquals("Max 60 Personen erlaubt", actual3);
-        Assertions.assertEquals("Ungültige Eingabe", actual4);
 
+    public void checkWith30People() {
+        //GIVEN
+        int peopleTest = 30;
+        //WHEN
+        String actual = Alarm.howManyLeft(peopleTest);
+        //THEN
+        Assertions.assertEquals("Laden voll!", actual);
+    }
+
+    @Test
+
+    public void checkWith31People() {
+        //GIVEN
+        int peopleTest = 31;
+        //WHEN
+        String actual = Alarm.howManyLeft(peopleTest);
+        //THEN
+        Assertions.assertEquals("Zu viele Personen!", actual);
+    }
+
+    @Test
+    public void alarmTestWithRed() {
+        //GIVEN
+        String test = "rot";
+        //WHEN
+        String actual = Alarm.alarmMeter(test);
+        //THEN
+        Assertions.assertEquals("Keine Personen erlaubt!", actual);
+    }
+
+    @Test
+    public void alarmTestWithYellow() {
+        //GIVEN
+        String test = "gelb";
+        //WHEN
+        String actual = Alarm.alarmMeter(test);
+        //THEN
+        Assertions.assertEquals("Max 30 Personen erlaubt", actual);
+    }
+
+    @Test
+    public void alarmTestWithGreen() {
+        //GIVEN
+        String test = "grün";
+        //WHEN
+        String actual = Alarm.alarmMeter(test);
+        //THEN
+        Assertions.assertEquals("Max 60 Personen erlaubt", actual);
+
+    }
+
+    @Test
+    public void alarmTestWrongInput() {
+        //GIVEN
+        String test = "bla";
+        //WHEN
+        String actual = Alarm.alarmMeter(test);
+        //THEN
+        Assertions.assertEquals("Ungültige Eingabe", actual);
     }
 }
