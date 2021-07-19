@@ -73,4 +73,26 @@ class StudentTest {
                 Arguments.of("Klaus","Dksja",34)
         };
     }
+
+    @Test
+    public void checkEquals(){
+        //GIVEN
+        Student student1 = new Student("Franz","Hans",5);
+        Student student2 = new Student("Franz","Hans",5);
+        //WHEN
+        boolean actual = student1.equals(student2);
+        //THEN
+        assertTrue(actual);
+    }
+
+    @Test
+    public void checkNotEqual(){
+        //GIVEN
+        Student student1 = new Student("Franziska","Hans",5);
+        Student student2 = new Student("Franz","Hans",5);
+        //WHEN
+        boolean actual = student1.equals(student2);
+        //THEN
+        assertFalse(actual);
+    }
 }
