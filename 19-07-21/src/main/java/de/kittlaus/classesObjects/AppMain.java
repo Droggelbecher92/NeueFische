@@ -11,6 +11,6 @@ public class AppMain {
         System.out.println(Integer.MAX_VALUE);
 
         Student test = new Student("Klaus","Peter",23);
-        System.out.println(Student.studentToString(test));
+        System.out.println(test.toString());
     }
 }

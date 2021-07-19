@@ -44,7 +44,7 @@ class StudentTest {
         //GIVEN
         Student student = new Student("Klaus","Peter",23);
         //WHEN
-        String actual = Student.studentToString(student);
+        String actual = student.toString();
         //THEN
         assertEquals("Der Student Klaus Peter mit der Nummer 23.",actual);
     }

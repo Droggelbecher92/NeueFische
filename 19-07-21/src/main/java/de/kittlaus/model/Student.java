@@ -35,8 +35,8 @@ public class Student {
         this.matriculationNumber = matriculationNumber;
     }
 
-    public static String studentToString(Student student){
-        return "Der Student "+(student.firstName)+" "+(student.lastName)+" mit der Nummer "+(student.matriculationNumber)+".";
+    public String toString(){
+        return "Der Student "+(firstName)+" "+(lastName)+" mit der Nummer "+(matriculationNumber)+".";
     }
 
 
