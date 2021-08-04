@@ -1,0 +1,17 @@
+{
+  "name": "first-html-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite",
+    "prettier": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thomas kittlaus",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "vite": "^2.4.4"
+  }
+}
